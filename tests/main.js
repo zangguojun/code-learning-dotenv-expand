@@ -23,7 +23,7 @@ describe('dotenv-expand', function () {
       const dotenv = {
         parsed: {
           BASIC: 'basic',
-          BASIC_EXPAND: '${BASIC}',
+          BASIC_EXPAND: '1${BASIC}2${BASIC}3',
           BASIC_EXPAND_SIMPLE: '$BASIC'
         }
       }
